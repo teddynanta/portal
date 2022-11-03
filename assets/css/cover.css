@@ -1,0 +1,300 @@
+.logo {
+	height: 100px;
+	width: auto;
+}
+
+.footer-center {
+	position: absolute;
+	bottom: 0px;
+	right: 25%;
+	left: 50%;
+	margin-left: -25%;
+}
+
+header {
+	margin: 20px 10px;
+	text-align: center;
+}
+
+header img {
+	width: 320px;
+}
+
+@media (max-width: 575px) {
+	header img {
+		width: 250px;
+	}
+}
+
+.content-form {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 400px !important;
+}
+
+.modal-content {
+	border-radius: 0px !important;
+	border: none !important;
+	background: #fff0 !important;
+}
+
+.modal-body {
+	padding: 0px !important;
+}
+
+.list-group a {
+	text-decoration: none;
+}
+
+.list-group .list-group-item {
+	background-color: #f7f7f7;
+	color: #000;
+	font-weight: bold;
+}
+
+.list-group .list-group-item:hover {
+	background-color: #ececec;
+	color: #353535;
+}
+
+.box {
+	color: #fff;
+	position: absolute;
+	z-index: 9;
+	width: 50%;
+	background: #000;
+}
+
+.offset {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.cover {
+	filter: brightness(50%);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -10;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	opacity: 0.2;
+	z-index: -9;
+}
+
+.description {
+	line-height: 40px;
+}
+
+a {
+	color: #b5a4fb;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: #000;
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a,
+button {
+	outline: none;
+}
+
+.container {
+	max-width: 700px;
+
+}
+
+.label_menu {
+	font-weight: bold;
+	color: #fff !important;
+	font-size: 12px;
+	line-height: 1.5;
+	text-shadow: 1px 1px 1px #000;
+}
+
+
+
+/*.menu_utama {
+	display: inline-block;
+	list-style-type: none;
+	padding: 20px;
+	overflow: hidden;
+	background-image:url("../img/bg.png");
+	border-radius: 10px;
+}
+.menu_utama li {
+	float: left;
+	max-width: 33.33%;
+	margin: 7px 0;
+}
+.menu_utama li a {
+	display: block;
+	color: white;
+	margin: 0px 10px;
+	text-align: center;
+	text-decoration: none;
+}*/
+.fa {
+	color: #fff;
+}
+
+.menu_utama {
+	background-image: url("../img/bg.png");
+	padding: 15px;
+	margin-top: 23%;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+.menu_utama a {
+	cursor: pointer;
+}
+
+.footer {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	line-height: 1.5;
+}
+
+.img_icon {
+	width: 75%;
+	padding: 5px;
+	margin: 5px;
+}
+
+@media (max-width: 767px) {
+	.img_icon {
+		width: 50%;
+	}
+}
+
+
+@media (min-width: 767px) {
+
+	.modal-md {
+		max-width: 50% !important;
+	}
+}
+
+.img_icon_sub {
+	width: 150px;
+}
+
+.sub_menu {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px;
+	overflow: hidden;
+	background: #fff;
+	width: 100%;
+}
+
+.sub_menu li {
+	/*float: left;*/
+	width: 100%;
+}
+
+.sub_menu li a {
+	display: block;
+	color: #000;
+	padding: 10px 20px;
+	/*margin:5px;*/
+	text-decoration: none;
+	border: 1px solid #f0f0f0;
+	line-height: 1;
+	font-size: 14px;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+.sub_menu li a:hover {
+	background: rgb(196, 196, 196);
+	background: linear-gradient(0deg, rgb(234, 234, 234) 0%, rgb(247, 247, 247) 100%);
+}
+
+.no-gutters>.col,
+.no-gutters>[class*="col-"] {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.close {
+	opacity: 1;
+	color: #fff !important;
+	text-shadow: 0 1px 0 #fff !important;
+}
+
+button.close {
+	font-weight: bold;
+}
+
+button.close:hover {
+	color: #fff;
+}
+
+.button {
+	border-radius: 15px;
+	height: 100%;
+	background: #f0f0f0;
+	background-image: url('../img/bg-icon.png');
+	display: block;
+	display: inherit;
+	padding: 20px;
+	text-align: center;
+}
+
+.button:hover {
+	-webkit-box-shadow: 0px 0px 4px 2px #fff;
+	-moz-box-shadow: 0px 0px 4px 2px #fff;
+	box-shadow: 0px 0px 4px 2px #fff;
+}
+
+.button img {
+	width: 100%;
+}
+
+.modal-header {
+	background: #fff0 !important;
+	border-bottom: 0px solid #fff !important;
+}
+
+.modal-open .modal {
+	background: #00000070;
+}
+
+.mdl_title {
+	font-weight: bold;
+	color: #fff;
+}
+
+.mdl_header {
+	padding: 10px 0px !important;
+}
